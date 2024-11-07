@@ -1,0 +1,145 @@
+
+
+/* medium device 768 px */
+
+@media screen and (min-width:768px) and (max-width:991px){
+  
+    
+    /* Portfolio Card section */
+.card_texts{
+    & h3{
+        font-size: 18px;
+    }
+    & p{
+        font-size: 12px;
+    }
+}
+.PortButton a{
+  font-size: 9px;
+}
+
+.PortButton{
+    margin: -25px 0;
+
+}
+    /*End portfolio card section  */
+
+    /* Start Testimonial Section */
+     
+    .card_Inner{
+        & p{
+            font-size: 13px;
+        }
+    }
+
+
+    .cardss_footer{
+        margin-top: -20px !important;
+        & h5{
+           font-size: 17px;
+        }
+        & h6{
+            font-size: 13px;
+        }
+    }
+.cardss_header img{
+    margin-top: -20px;
+}
+
+/* End Testimonial Section  */
+
+
+/* Start Footer section */
+
+.nav_ul li{
+    text-align: center;
+    padding: 10px 4px;
+    & a{
+        font-size: 13px;
+    }
+}
+
+.social_icon img{
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+}
+
+
+
+.footer_condition {
+    margin-top: -72px;
+}
+
+/* End Footer section */
+
+
+}
+
+/* End medium device responsive */
+
+/* Start small device responsive */
+
+@media screen and (min-width:576px) and (max-width:767px){
+
+
+   .P_card{
+    
+    width: 500px;
+    margin: 10px;
+   }
+
+   .card_Inner{
+    width: 500px;
+    margin: 10px;
+   }
+
+   .social_icon{
+    text-align: start;
+    margin-left: -8px;
+   }
+
+   .nav_ul{
+    margin-left: -50px;
+    padding: 10px 0;
+   }
+
+   .aligns{
+    text-align: center;
+    
+   }
+.rescon{
+    justify-content: center !important;
+}
+
+.footer_condition{
+    margin-top: -10px !important;
+}
+
+
+.skill{
+    margin-top: -90px;
+}
+
+.testimonial_header{
+    margin: -90px 0;
+
+}
+
+.contact_section{
+    margin-top: -60px;
+}
+
+.P_card{
+    width: 400px;
+    margin:  auto;
+    margin-bottom: 20px;
+
+}
+}
+
+
+
+
+
+

@@ -1,0 +1,376 @@
+
+/* Robot front */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+
+    font-family: "Roboto", sans-serif;
+    }
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+/*  Navbar section */
+.navbarColor{
+    background-color: #fff !important;
+    box-shadow: 0px 0px 32px 0px #00000026;
+}
+
+.logo{
+    width: 187px;
+    height: 40px;
+}
+
+.nav-link{
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+
+.active{
+    color: blue !important;
+}
+
+
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.Buttonn{
+    width: 140px;
+   background-color: #fff;
+   color: #5E3BEE;
+   border: 1px solid #5E3BEE;
+}
+
+/* Strat Header section */
+
+.header{
+    background-color: #F5FCFF;
+    
+}
+
+.headerContent{
+    padding-top: 50px;
+    & p{
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        
+    }
+
+    & h1{
+         font-size: 32px;
+         padding: 15px 0;
+    }
+
+    & .H_color{
+         color: #5E3BEE;
+         font-weight: 700;
+         
+    }
+}
+
+.Get_btn{
+    width: 171px;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.header_button{
+    padding-top: 25px;
+}
+
+.headerImg img{
+    width: 100%;
+    height:750px; 
+    padding-top: 133px;
+    padding-bottom: 133px;
+}
+
+
+/* Start skill section */
+
+
+.skill_Up{
+     padding-top: 140px;
+}
+
+.skill_down{
+    padding-top: 106px;
+}
+
+
+.Card{
+    background-color:  #F5FCFF;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 2px 10px 20px 0px #00000026;
+    padding-bottom: 150px;
+
+
+    & img{
+        padding: 10px;
+        width: 80px;
+        height: 80px;
+    }
+
+    & h3{
+        font-family: Roboto;
+        font-size: 22px;
+        font-weight: 700;
+        
+        text-align: left;
+        margin: 18px;
+
+    }
+    & p{
+           font-family: Roboto;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: left;
+            margin: 18px;
+            line-height: 30px;
+
+    }
+}
+
+.Cards{
+    border-bottom: 2px solid  #5E3BEE;
+    border-radius: 10px;
+    
+}
+
+
+/* Start about Section */
+.about_Section{
+    padding-top: 150px!important;
+}
+
+.about_img img{
+    width: 100%;
+    height: 550px;
+    gap: 0px;
+    opacity: 0px;
+    padding-bottom: 50px
+
+    
+}
+
+
+/* Portfolio section */
+.portfolio_header{
+    margin-top: 74px;
+    margin-bottom: 40px;
+}
+
+.pButton{
+    & img{
+        width: 20px;
+    }
+}
+
+/* Card-portfolio-section */
+
+.portfolio_section{
+    margin-top: 50px !important;
+    padding-bottom: 110px;
+}
+
+
+.card_texts{
+   padding: 20px;
+
+   
+}
+.PortButton {
+    margin-left: 20px !important;
+    margin-top: -10px;
+    padding-bottom: 35px;
+   
+}
+
+.PortButton > a{
+ text-decoration: none;
+ border-bottom: 1px solid black;
+ color: black;
+ padding-bottom: 10px;
+ font-size: 13px;
+ font-weight: 550;
+
+}
+
+
+
+.P_card{
+    background-color: #fff;
+    box-shadow: 0px 0px 32px 0px #00000026;
+    border-radius: 15px;
+
+
+   & .p_cardImg{
+    width:100%;
+    margin: 0;
+   
+ }
+
+ & img{
+    width: 10px;
+    margin-left: 5px;
+ }
+}
+
+/* Start Testimonials section */
+.testimonials{
+    background: #F5FCFF;
+
+}
+
+
+.testimonial_header{
+    padding: 110px 0;
+}
+/* Testimonials card section */
+
+
+.card_Inner{
+   
+    border: 1.33px solid #006B6A;
+    border-radius: 8px;
+    
+    
+}
+
+.card_Inner {
+
+    & img{
+        width:120px;
+    }
+    & p{
+        padding: 10px 15px;
+    }
+}
+
+.cardss_header{
+    & img{
+        width: 60px;
+    }
+}
+
+.cardss_footer{
+  line-height: 2px;
+  & h6{
+    font-weight: 400;
+  }
+}
+
+.Inner_cardss{
+    padding: 20px 0;
+}
+
+
+
+/* Start contact header section */
+
+.contact_section{
+    margin-top: 80px;
+  }
+.contact_header{
+    padding-top: 110px;
+    padding-bottom: 60px;
+}
+.con_htext{
+    padding: 15px 0;
+}
+
+.contact_form{
+    padding-bottom: 110px;
+}
+
+.submit_button{
+    padding: 10px 40px;
+}
+
+
+
+
+/* navbar footer */
+
+
+.footer_logo{
+    width: 150px;
+}
+
+.nav_ul li{
+    list-style-type: none;
+    float: left;
+    padding: 10px 8px;
+    
+}
+
+
+.social_icon{
+    text-align: end;
+}
+.social_icon img{
+    width: 28px;
+    height: 28px;
+    
+}
+
+
+.footer_condition li{
+  list-style: none;
+  float: left;
+  padding: 10px 10px;
+  
+  
+}
+
+.footer_condition a{
+    text-decoration: none;
+    color: #0b0b0b;
+    
+    
+  }
+
+
+  .Border_up{
+    border-top: 1px solid black;
+  }
+  
+
+  
+
+
+
+
+
+
+/* Footer section */
+.footerSection{
+    background: #F5FCFF;
+     padding: 50px 0;
+}
+
+.footer_nav{
+    padding: 80px 0;
+}
+.fotter_bottom{
+    padding-bottom: 30px;
+}
